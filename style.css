@@ -10,7 +10,6 @@ body{
   justify-content: center;
   min-height: 100vh;
   overflow-x: hidden;
- 
 }
 ul{
   list-style: none;
@@ -26,7 +25,6 @@ nav{
   left: 0;
   display: flex;
 }
-
 /* navbar */
 .navigation{
   position: fixed;
@@ -39,20 +37,12 @@ nav{
   width: 100%;
   margin: auto;
 }
-.menu-video{
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: -1;
-}
 .menu{
   position: absolute;
   top: 10%;
   left: 0;
   color: #000;
-  /* background: #fff; */
+  background: #fff;
   width: 100%;
   height: 100vh;
   padding: 15px;
@@ -74,13 +64,12 @@ nav{
   line-height: 3em;
   letter-spacing: 0.5px;
   transition: all ease 0.3s;
-  
 }
 .logo{
   font-size: 4.4rem;
   font-weight: 600;
   letter-spacing: 6px;
-  color: #3b3b3b;
+  color: #3B3B3B;
 }
 .logo span{
   color: #DDB482;
@@ -89,7 +78,6 @@ nav{
   color: #DDB482;
   transition: all ease 0.3s;
 }
-
 .menu-btn{
   position: relative;
   display: flex;
@@ -100,7 +88,6 @@ nav{
   cursor: pointer;
   z-index: 3;
   transition: all .5s ease-in-out;
-
 }
 .menu-btn_burger{
  width: 50px;
@@ -108,7 +95,6 @@ nav{
  background: #DDB482;
  border-radius: 2px;
  transition: all .5s ease-in-out;
-
 }
 .menu-btn_burger::before,
 .menu-btn_burger::after{
@@ -145,7 +131,6 @@ nav{
   display: flex;
   align-items: center;
 }
-
 .search .icon {
   cursor: pointer;
   font-size: 1.5em;
@@ -164,7 +149,6 @@ nav{
   padding: 10px 30px;
   z-index: 9999;
 }
-
 .searchBox input {
   width: 100%;
   padding: 8px;
@@ -172,20 +156,15 @@ nav{
   border-radius: 4px;
   font-size: 14px;
 }
-
 .closeBtn {
   display: none;
 }
 .searchBox.active {
   display: flex;
 }
-
 .searchBox.active .closeBtn {
   display: inline-block;
 }
-
-
-
 /* TEXT */
 .bg-text{
   margin-top:-35% ;
@@ -196,21 +175,17 @@ nav{
 }
 .text{
   position: relative;
- 
-  
 }
 .text h2{
   position: absolute;
   transform: translate(-50%, -50%);
   font-size: 5em;
   animation: scrollAnimation 10s linear infinite;
-
 }
 .text h2:nth-child(1){
   color: transparent;
   -webkit-text-stroke: 2px #fff;
 }
-
 @keyframes scrollAnimation {
   0% {
     transform: translateY(0);
@@ -246,16 +221,13 @@ nav{
   overflow: hidden;
   z-index: -1;
 }
-
 #background-video video {
   width: 100%;
   height: auto;
 }
-
 #video-section {
   padding: 100vh 0;
 }
-
 
 
 
